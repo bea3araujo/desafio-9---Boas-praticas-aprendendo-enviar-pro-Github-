@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rufina', serif;
+}
+header{
+    width: 1366px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #D2A295 23.96%, #BFD1D9 100%);
+}
+h1{
+    color: #F7F7F7;
+    font-size: 72px;
+}
+.paragraph-header{
+    max-width: 1100px;
+    font-size: 36px;
+    text-align: center;
+    color: #9D7F7F;
+}
+main{
+    width: 1366px;
+    height: 1286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #BFD1D9;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 825px;
+    justify-content:space-between;
+    height: 324px;
+}
+.card.image{
+    width: 200px;
+    height: 200px;
+}
+.card .bg-white{
+    background-color: #F7F7F7;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .bg-white img{
+    padding: 10px;
+}
+.card .text{
+    width: 550px;
+}
+.card .text p{
+    font-size: 30px;
+    color: #383D40;
+}
+.card .text h2{
+    font-size: 36px;
+    color: #1C3021;
+}
+.title{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #090D06;
+}
